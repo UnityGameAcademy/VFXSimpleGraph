@@ -137,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 5443775265797046809, guid: 0faac146699444f478805b286b40ea45,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5443775265797046809, guid: 0faac146699444f478805b286b40ea45,
         type: 3}
@@ -249,7 +249,16 @@ VisualEffect:
   m_ResetSeedOnPlay: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 2
+        m_Name: Initial Color Cycle Duration
+        m_Overridden: 1
+      - m_Value: 0.828
+        m_Name: Particle Size
+        m_Overridden: 1
+      - m_Value: 0.0393
+        m_Name: Particle Width
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -259,13 +268,87 @@ VisualEffect:
     m_Uint:
       m_Array: []
     m_Int:
-      m_Array: []
+      m_Array:
+      - m_Value: 17
+        m_Name: Arc Duration
+        m_Overridden: 1
+      - m_Value: 5
+        m_Name: Lifetime Max
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: Lifetime Min
+        m_Overridden: 1
+      - m_Value: 100000
+        m_Name: Number of Particles
+        m_Overridden: 1
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.9841944, g: 0.072139904, b: 0.5049793, a: 1}
+          key1: {r: 0.05490196, g: 0.07401972, b: 0.72952074, a: 0.91764706}
+          key2: {r: 0.021953719, g: 0.13904022, b: 1.792887, a: 0.78431374}
+          key3: {r: 1.2721031, g: 0.046621576, b: 0.046621576, a: 0.57254905}
+          key4: {r: 0.9963448, g: 0.083463445, b: 0.5372959, a: 0.2653951}
+          key5: {r: 0, g: 0, b: 0, a: 0.5529412}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 10411
+          ctime2: 21203
+          ctime3: 44911
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 10573
+          atime2: 22275
+          atime3: 37287
+          atime4: 43260
+          atime5: 52622
+          atime6: 65535
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 7
+        m_Name: Color over Lifetime
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 0, b: 0, a: 0}
+          key1: {r: 1.2705883, g: 1.1294118, b: 2.9960785, a: 0.8}
+          key2: {r: 0.50990355, g: 0.21604672, b: 0.8161765, a: 0.7019608}
+          key3: {r: 0.83823526, g: 0.17257786, b: 0.37916112, a: 0.03529412}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 23214
+          ctime2: 33103
+          ctime3: 43494
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 3687
+          atime2: 55143
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 4
+        m_Name: Initial Color Cycle
+        m_Overridden: 1
     m_NamedObject:
       m_Array: []
     m_Bool:
