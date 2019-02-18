@@ -183,7 +183,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01270efd3285ea4a9d6c555cb0a8027, type: 3}
   m_Name: VFXUI
   m_EditorClassIdentifier: 
-  groupInfos: []
+  groupInfos:
+  - title: AttractiveForce
+    position:
+      serializedVersion: 2
+      x: -683
+      y: 762
+      width: 1363
+      height: 416
+    contents:
+    - model: {fileID: 8926484042661614667}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614690}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614695}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614700}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614718}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614743}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614757}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614760}
+      id: 0
+      isStickyNote: 0
+  - title: Initial Color Cycle
+    position:
+      serializedVersion: 2
+      x: -329
+      y: 434
+      width: 818
+      height: 269
+    contents:
+    - model: {fileID: 8926484042661614643}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614651}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614653}
+      id: 0
+      isStickyNote: 0
+    - model: {fileID: 8926484042661614659}
+      id: 0
+      isStickyNote: 0
   stickyNoteInfos:
   - title: Attractor
     position:
@@ -193,9 +245,9 @@ MonoBehaviour:
       width: 512
       height: 512
     contents: 'The user can attach an empty "FX attractor" GameObject/Transform in
-      the Inspector using a VFX Parameter Binder.  We convert its Vector3 Attractor
-      Position to local space and then get the direction from an individual particle
-      using the Get Attribute Position.
+      the Inspector using a VFX Parameter Binder.  We convert its Vector3 position
+      to local space and then get the direction from an individual particle using
+      the Get Attribute Position node.
 
 
       The vector difference (outputted to a Force Block in the Update) applies an
@@ -229,8 +281,8 @@ MonoBehaviour:
   - title: Initial Color
     position:
       serializedVersion: 2
-      x: -835
-      y: 377
+      x: -1021
+      y: 389
       width: 649
       height: 274
     contents: "Add some color variation to particles as they spawn.  \nIf we use Periodic
@@ -291,7 +343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1230
     y: -498
-    width: 2326
+    width: 2770
     height: 2550
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -5569,7 +5621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 303, y: 596}
+  m_UIPosition: {x: 233, y: 529}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5874,7 +5926,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614652}
       inputSlot: {fileID: 8926484042661614644}
-    position: {x: 1.6821147, y: 564.42755}
+    position: {x: -68.27811, y: 497.50906}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614652
@@ -5926,7 +5978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 17, y: 647}
+  m_UIPosition: {x: -53, y: 580}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6162,7 +6214,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614660}
       inputSlot: {fileID: 8926484042661614654}
-    position: {x: -233.6279, y: 680.03766}
+    position: {x: -303.5881, y: 613.11926}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614660
@@ -6214,7 +6266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -377, y: 817}
+  m_UIPosition: {x: -398, y: 835}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6616,7 +6668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -349, y: 1022}
+  m_UIPosition: {x: -370, y: 1040}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -6800,7 +6852,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614696}
       inputSlot: {fileID: 8926484042661614668}
-    position: {x: -636.1494, y: 807.84985}
+    position: {x: -657.85, y: 825.99115}
     expandedSlots:
     - {fileID: 8926484042661614696}
     expanded: 1
@@ -6955,7 +7007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -96, y: 887}
+  m_UIPosition: {x: -117, y: 905}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7477,7 +7529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 158, y: 883}
+  m_UIPosition: {x: 137, y: 901}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8086,7 +8138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 438, y: 898}
+  m_UIPosition: {x: 417, y: 916}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8530,7 +8582,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614758}
       inputSlot: {fileID: 8926484042661614745}
-    position: {x: 196.75786, y: 1052.8073}
+    position: {x: 175.05731, y: 1070.9485}
     expandedSlots: []
     expanded: 1
 --- !u!114 &8926484042661614758
@@ -8654,7 +8706,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614761}
       inputSlot: {fileID: 8926484042661614742}
-    position: {x: 484.31052, y: 1074.5564}
+    position: {x: 462.60992, y: 1092.6978}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614761
